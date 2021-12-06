@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html lang="hu">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Weboldal logikai részeinek meghatározása</title>
+    <style>
+        section {
+            border: 2px solid brown;
+            margin: 5px;
+            padding: 5px 20px;
+        }
+
+        article {
+            background-color: lightgoldenrodyellow;
+        }
+
+        section>p {
+            font-size: 2em;
+            color: red;
+        }
+
+        header {
+            background-color: peru;
+            height: 2cm;
+            text-align: center;
+        }
+
+        nav {
+            width: 80%;
+            border: double 4px darkred;
+            margin: auto;
+        }
+
+        nav>ul>li {
+            display: inline;
+            background-color: orange;
+            color: red;
+
+        }
+
+        footer {
+            background-color: springgreen;
+        }
+    </style>
+</head>
+
+<body>
+    <header> <img src="képek/unnamed.png"></header>
+    <nav>
+        <h2>
+            Navigációs rész
+        </h2>
+        <ul>
+            <li><a href="#1">Rovat 1 (Időjárás)</a></li>
+            <li><a href="#2">Rovat 2 (Égő ház)</a></li>
+            <li><a href="#3">Rovat 3 (Forint)</a></li>
+            <li><a href=#4>Rovat 4(Kína)</a></li>
+        </ul>
+    </nav>
+
+    <section>
+        <h1> Friss híreink</h1>
+        <article>
+            <h1>Csollány Szilveszter súlyos állapotban fekszik kórházban</h1>
+            <p>Csollány Szilveszter megfertőződött a koronavírussal – írta meg a Magyar Nemzet. A lap szerint a
+                versenyzéstől 2003-ban visszavonult, olimpiai, világ- és Európa-bajnok tornász kórházban van,A lap azt
+                írja, hogy november 23-án telefonon keresték az 51 éves Csollányt, hogy interjút készítsenek vele. Akkor
+                a sportoló egy hét türelmet kért, arra hivatkozva, hogy gyengélkedik. Azt követően, múlt hétfőn sms-ben
+                annyit üzent, hogy kórházba került, a lap mai megkeresésére pedig már nem válaszolt.</p>
+
+
+
+            <h1>Már több mint 50 ezren várnak műtétre Magyarországon</h1>
+            <p> A Nemzeti Egészségbiztosítási Alapkezelő (NEAK) adatai alapján jelenleg 50 360 beteg vár valamilyen
+                műtéti beavatkozásra Magyarországon – írta a Világgazdaság. A VG szerint jelenleg 34-féle
+                ellátástípusnál van várólista, előjegyzési listát pedig 30 ellátásnál alkalmaznak. Utóbbira azok a
+                betegek kerülnek, akiket vagy saját kérésükre nem operálnak meg a lehető legkorábbi időpontban, vagy
+                mert nincsenek műthető állapotban.</p>
+        </article>
+    </section>
+
+
+
+    <section>
+        <div id="1">
+            <p>
+            <h3>Napi híreink</h3>
+            </p>
+
+            <article>
+                <h2>Komoly fagyok és hó is lesz a héten</h2>
+                <p>
+                    A hétvégére megjött a tél, az ország jelentős részén havazott, és főleg az északi területeken
+                    hosszabb-rövidebb ideig meg is maradt – vagy még most, hétfőn is látható belőle valami. A
+                    december
+                    idáig kevéssel alulmúlja az ilyenkor szokásos 1-4 Celsius fokos napi középértéket, a
+                    folytatásban
+                    pedig erős hullámzásra számíthatunk akár a hőmérsékletet, akár a csapadékot nézzük.
+                <p>
+                    Forrás: 24.hu</p>
+                <p>
+                    <a href="https://24.hu/tudomany/2021/12/06/komoly-fagyok-es-ho-is-lesz-a-heten/">Tovább a teljes
+                        cikkre</a>
+        </div>
+        </p>
+        </p>
+        </article>
+        <div id="2">
+            <article>
+                <h2>Rendőrnők hozták ki égő házából a sokkos férfit </h2>
+                <p>Kigyulladt egy családi ház vasárnap kora este Balatonbogláron.</p>
+                <p>A Somogy Megyei Rendőr-főkapitányság tájékoztatása szerint a fonyódi járőrök, Herkovics Dorottya
+                    és
+                    Katona Viktória pár perccel később már az ingatlannál voltak.</p>
+                <p>
+                    A bejelentésből tudták, hogy a tulajdonos bent tartózkodik, ezért haladéktalanul behatoltak a
+                    lángoló épületbe, és kihozták a bajba jutott férfit, valamint a kutyáját is.</p>
+                <p>Forrás: 24.hu</p>
+                <a href="https://24.hu/belfold/2021/12/06/rendornok-hoztak-ki-ego-hazabol-a-sokkos-ferfit/">Tovább a
+                    teljes cikkre</a>
+        </div>
+        </article>
+        <div id="3">
+            <article>
+                <h2>366 fölé gyengült estére a forint
+                </h2>
+                <p>
+                    Az utóbbi napokban többször megpróbálkozott az erősödéssel a forint az euróval szemben, azonban a
+                    360-as szintig nem tudott visszakapaszkodni. Sőt, hétfő reggel újra 365-nél indította a hetet a
+                    magyar deviza. Továbbra is elsősorban az MNB heti kamatemelésére figyelhet a piac, kérdés, mennyivel
+                    emeli meg a kamatot a jegybank a jövő heti rendes kamatdöntő ülés előtt.
+                </p>
+                <p>Forrás: https://www.portfolio.hu</p>
+                <a href="https://www.portfolio.hu/deviza/20211206/366-fole-gyengult-estere-a-forint-514566">Tovább a
+                    teljes cikkre</a>
+            </article>
+        </div>
+    </section>
+    <div id="4">
+        <section>
+            <p>További híreink </p>
+            <article><h1>Kína manipulálta az időjárást, hogy esőt csináljon és tisztítsa a levegőt</h1>
+                <p>Kína ezüst-jodidot használt arra a nyáron, hogy serkentse az eső kialakulásának esélyét. A folyamatot
+                    felhővetésnek is hívják.</p>
+                <p>A felhővetés technológiáját használta arra Kína, hogy mesterséges esőt idézzen elő, amivel a
+                    légszennyezettséget csillapították Pekingben. Az eljárást a South China Morning Post szerint még
+                    júliusban hajtották végre, egy olyan rendezvény előtt, amit a Kínai Kommunista Párt alapításának
+                    100.
+                    évfordulója miatt tartottak.</p>
+                <p>Forrás: https://hvg.hu</p>
+                <a href="https://hvg.hu/tudomany/20211206_kina_eso_felhovetes_legszennyezes_felho_kommunista_part">Tovább
+                    a
+                    teljes cikkre</a>
+
+                <article>
+                    <p><h1>Sorozattolvajt fogtak Szegeden</p></h1>
+                    <p>EGY ALSÓVÁROSI ÁLTALÁNOS ISKOLA BEKERÍTETT BICIKLITÁROLÓJÁBÓL ISMERETLENEK ELVITTEK EGY KÖZEL 100
+                        EZER FORINT ÉRTÉKŰ LEZÁRT BICIKLIT. A RENDŐRÖK A HELYSZÍN KÖZELÉBEN ELFOGTÁK AZ ELKÖVETŐT, EGY
+                        16
+                        ÉVES KAMASZT,majd a rendőrkapitányságon hallgatták ki. A rendőrök
+                        MEGÁLLAPÍTOTTÁK RÓLA, HOGY TOVÁBBI NÉGY BICIKILIT LOPOTT EL AZ UTÓBBI IDŐSZAKBAN,
+                        melyeket sikerült felkutatni, majd lefoglalni.</p>
+                </article>
+                <p>Forrás: https://www.origo.hu</p>
+                <a href="https://www.origo.hu/itthon/20211206-bicikliket-lopott-egy-szegedi-kamaszfiu.html">Tovább a
+                    tejles cikkre</a>
+            </article>
+    </div>
+    </section>
+
+    </section>
+    <footer>
+        Ezt az oldalt szerkeszti: Szabó Márk<br>
+        Az oldalon felhasznált anyagok forrása: lalala. Különféle jognyilatkozatok,stb.
+    </footer>
+</body>
+
+</html>
